@@ -20,7 +20,7 @@ echo -e "  _____  _____   ______  ______ ______ _       ______  _____
 | |__| || | \ \ | |____  / /__  / /__ | |____ | |____ | |__| |
  \_____||_|  \_\|______|/_____|/_____||______||______||_____/  
 
-    ${GREEN} $NAME ${NOCOLOR}- ${YELLOW} $VERSION ${NOCOLOR} by ${GREEN} Soufiane Belchhab ${YELLOW}(Grezzled) ${NOCOLOR}"
+    ${GREEN} $NAME ${NOCOLOR}- ${YELLOW} $VERSION ${NOCOLOR} by ${GREEN}${YELLOW}(Grezzled) ${NOCOLOR}"
 echo ""
 echo -e "${YELLOW}>>>${NOCOLOR} initialisation.."
 echo -e "${YELLOW}>>>${NOCOLOR} Tor Installation Check.."
@@ -113,7 +113,7 @@ while true; do
 	echo -e "${YELLOW}>>>${NOCOLOR} Restarting tor service..";
 	brew services restart tor
 	ip
-	echo "IP will be changed every 5 min"
+	echo "IP will be changed every ${TimeInSeconds} min"
 	echo "Precc CTRL-C to Quit"
 done
 trap - INT
