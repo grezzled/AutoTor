@@ -79,7 +79,7 @@ function torStatus {
 
 torStatus 
 
-echo "Set Duration (in seconds) to change the IP Adress :"
+echo "Set Duration (in seconds) to change the IP Address :"
 read TimeInSeconds
 
 echo "IP will change every ${TimeInSeconds} seconds"
@@ -97,10 +97,10 @@ echo -e "${YELLOW}>>>${NOCOLOR}Enabling Proxy 127.0.0.1 9050"
 networksetup -setsocksfirewallproxy Wi-Fi 127.0.0.1 9050
 
 function ip {
-	echo -e "${YELLOW}>>>${NOCOLOR}Fetch new IP adress"
+	echo -e "${YELLOW}>>>${NOCOLOR}Fetch new IP address"
 	IP=$(curl --socks5 localhost:9050 --socks5-hostname localhost:9050 -s http://checkip.amazonaws.com/ | cat | xargs )
 	
-	echo -e "${YELLOW}IP Adress${NOCOLOR} : ${GREEN}$IP${NOCOLOR}"
+	echo -e "${YELLOW}IP Address${NOCOLOR} : ${GREEN}$IP${NOCOLOR}"
 }
 
 ip
