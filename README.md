@@ -1,5 +1,5 @@
 # AutoTor FOR MAC OS
-Automatically Change TOR Client Ip Address 
+Install Tor Client on you mac with one click and set duration to change your ip address periodically
 
 Features:
 - Setup HomeBrew if not already installed in your mac os
