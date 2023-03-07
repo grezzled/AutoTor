@@ -113,7 +113,7 @@ while true; do
 	echo -e "${YELLOW}>>>${NOCOLOR} Restarting tor service..";
 	brew services restart tor
 	ip
-	echo "IP will be changed every ${TimeInSeconds} min"
+	echo "IP will be changed every ${TimeInSeconds} seconds"
 	echo "Precc CTRL-C to Quit"
 done
 trap - INT
