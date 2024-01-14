@@ -14,8 +14,6 @@ Open the terminal and set up HomeBrew if you have not installed it. Follow instr
 brew install tor
 ```
 
-````
-
 ### Step 3: Navigate to Tor Configuration
 
 ```bash
@@ -63,4 +61,3 @@ sudo chmod 777 ./autotor.sh
 - Custom duration (in seconds) to change Tor client IP address
 
 ![AutoTor Demo](cap.gif)
-````
