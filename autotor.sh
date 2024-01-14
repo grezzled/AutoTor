@@ -8,8 +8,8 @@ RED="\033[31m"
 NOCOLOR="\033[0m"
 
 #PATHS
-TORCCSIMPLE="/usr/local/etc/tor/torrc.sample"
-TORCC="/usr/local/etc/tor/torrc"
+TORCCSIMPLE="/opt/homebrew/etc/tor/torrc.sample"
+TORCC="/opt/homebrew/etc/tor/torrc"
 #///////////////////
 clear
 
